@@ -1,0 +1,31 @@
+
+
+html, body, .container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container,
+.teamSelector {
+    display: flex;
+}
+
+.teamSelector,
+.onMap,
+.teams {
+    width: 50%;
+}
+
+#mapid {
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.teamItem {
+    max-width: 300px;
+}
